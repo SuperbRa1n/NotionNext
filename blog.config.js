@@ -27,7 +27,7 @@ const BLOG = {
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Tannin Rachel', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的干饭人🍚', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.tanninrachel.ren', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Tannin', 博客', 'Tannin Rachel' // 网站关键词 英文逗号隔开
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Tannin', '博客', 'Tannin Rachel' // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'tanninrachel@yinlin.wiki', // 邮箱地址 例如mail@tangly1024.com
